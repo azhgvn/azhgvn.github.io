@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+    font-family: Arial,Helvetica,sans-serif;
+    color: yellow;
+    margin: 0 60px 0 60px;
+}
+
+a {
+    cursor: pointer;
+    color: yellow;
+    text-decoration: none;
+}
+
+.logo a {
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    height: 70px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#menu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100%;
+}
+
+.menu_content {
+    display: inline-block;
+    position: absolute;
+    left: 700px;
+    top: 0px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list li {
+    display: inline-block;
+    position: relative;
+    height: 44px;
+    vertical-align: top;
+    padding: 0.7rem 2rem;
+}
+
+.post {
+    width: 95%;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.tablepress {
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+    color: yellow;
+}
+
+h2 {
+    font-size: 24px;
+    color: yellow;
+    line-height: 1em;
+    font-weight: bold;
+    text-shadow: 0px 0px 0 rgb(193,213,-32),-1px -1px 0 rgb(172,192,-53),-2px -2px 0 rgb(150,170,-75),-3px -3px 0 rgb(128,148,-97), -4px -4px 0 rgb(106,126,-119),-5px -5px 4px rgba(0,0,0,1),-5px -5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
+}
+
+.buy {
+    text-decoration: underline;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.tablepress tbody tr:first-child td {
+    border-top: 0;
+}
+
+.tablepress tbody td,
+.tablepress th {
+    border-top: 1px solid lightgrey;
+}
+
+.tablepress tbody td {
+    vertical-align: top;
+}
+
+.tablepress td,
+.tablepress th {
+    padding: 8px;
+    border: none;
+    background: 0 0;
+    text-align: left;
+    float: none!important;
+}
+
+.contact {
+    margin-top: 20px;
+}
